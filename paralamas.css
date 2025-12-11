@@ -334,3 +334,7 @@ body.corpo {
   color:#cc0000; 
   text-decoration:none; 
 }
+@media (max-width: 600px) {
+  .header img.logo {
+    height: 60px;
+  }
