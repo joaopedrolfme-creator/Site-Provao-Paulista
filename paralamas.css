@@ -1,0 +1,367 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.titulo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.logo-header {
+  width: 110px;     
+  height: auto;
+}
+
+.tabela-regras {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  background: #ffffffdd;
+}
+
+.tabela-regras th {
+  background: #d32f2f;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabela-regras td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.btn-link {
+  text-decoration: none; 
+}
+
+.btn-link button {
+  display: flex;
+  align-items: center;
+  gap: 8px;           
+  background: #cfcfcf;
+  color:#df0000;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;  
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+  font-size: 0.9em;    
+  text-align: left;
+  transition: filter 0.2s ease;
+  margin: 0 auto;
+}
+
+.btn-link button:hover {
+  filter: brightness(0.95);
+}
+
+.btn-link img {
+  height: 78px;        
+  width: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.btn-link .btn-text-red {
+  color: #a30000;
+  font-weight: 600;
+}
+
+.btn-link .small {
+  font-size: 0.75em;
+  color: #4b0000;
+}
+
+body.corpo {
+  background-color: #d3d3d3;
+  color: #4b0000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.faclube {
+  background-color: #d3d3d3;
+  color: #4b0000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(90deg,#af0000 0%, #d60000 100%);
+  color: #4b0000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  width: 100%;
+  max-width: 100%;   
+  margin: 0 auto;  
+  border-radius: 16px;
+  overflow: hidden;  
+  box-sizing: border-box;
+  text-align: center;
+}
+
+    .header h1 {
+      margin: 0;
+      max-width: 100%;
+      word-wrap: break-word;
+      font-size: 1.8em;
+    }
+
+    .header .small {
+      margin-top: 8px;
+      font-size: 0.95em;
+      color: #ffffff;
+    }
+
+
+.custom-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+ .nav {
+  background: linear-gradient(180deg,#c2c2c2,#b9b9b9);
+  height: 100%;
+  padding: 18px 14px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(255,255,255,0.03);
+  max-width: 1400px;
+  margin: 24px auto 0 auto;
+  border-radius: 16px;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+   margin: 10px 0; 
+}
+.nav a {
+  color: #4b0000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background 160ms ease, color 160ms ease, transform 120ms ease;
+}
+
+.nav a:hover, .nav a:focus {
+  background: rgba(255,255,255,0.04);
+  color: #4b0000;
+  transform: translateX(4px);
+}
+ .article {
+  background: linear-gradient(180deg,#c2c2c2,#b9b9b9);
+  padding: 28px 32px;
+  color: #4b0000;
+  box-sizing: border-box;
+  min-height: 280px;
+  overflow:auto;
+  max-width: 1100px;
+  margin: 24px auto 0 auto;
+  border-radius: 16px;
+  text-justify: inter-word;
+}
+.article h1 { 
+  color: #000000; 
+  margin-top: 0;
+ }
+.article p { 
+  line-height: 1.6;
+  color: #4b0000;
+ }
+
+.img-text {
+  display: flex;
+  align-items: flex-start; 
+  gap: 15px;               
+  margin-bottom: 20px;
+}
+
+.img-text img {
+  float: left;           
+  margin: 0 15px 15px 0; 
+  width: 270px;           
+  height: 200px;         
+  object-fit: cover;      
+  border-radius: 5px;     
+}
+
+.footer {
+  background: #830000;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px;
+  font-size: 15px;
+  border-top: 1px solid rgba(255,255,255,0.02);
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;     
+  margin: 24px auto 0 auto; 
+  border-radius: 16px;
+  box-sizing: border-box;
+  
+}
+
+.lista-integrantes {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+}
+
+.grid-albuns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+
+.lista-integrantes {
+   padding: 0;
+   margin: 0;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+   gap: 18px;
+}
+.card {
+   background: rgba(255,255,255,0.03);
+   padding: 12px;
+   border-radius: 8px;
+   text-align: center;
+}
+
+.card img { 
+  width: 160px;
+  height: 160px;
+  object-fit: cover; 
+  border-radius: 50%; 
+  margin-bottom: 10px; 
+  border: 3px solid rgba(255,255,255,0.04); 
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  background: #111;
+  color: #eee;
+  border: 1px solid #2b2b2b;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  background: #d6d6d6;
+  color: #4b0000;
+  border: 1px solid #2b2b2b;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+
+.capa {
+   background: rgba(0,0,0,0.35);
+   padding: 8px;
+   border-radius: 8px;
+   text-align: center; 
+}
+.capa img { 
+  width: 100%; 
+  height: auto; 
+  border-radius: 6px; 
+  display:block; 
+  margin-bottom:6px; 
+}
+
+.form label { 
+  display:block; 
+  margin-top:10px; 
+  font-size:14px; 
+  color:#4b0000; 
+}
+.form input, .form select, .form textarea { 
+  width:100%; 
+  padding:8px; 
+  margin-top:6px; 
+  background:#b90000; 
+  color:#4b0000; 
+  border:1px solid #2b2b2b; 
+  border-radius:6px; 
+  box-sizing:border-box;
+}
+.btn { 
+  margin-top:12px;
+  padding:10px 16px; 
+  background:#ffd95a; 
+  color:#111; 
+  border:none; 
+  border-radius:8px; 
+  cursor:pointer; 
+  font-weight:600; 
+  display: block; 
+  margin: 0 auto; 
+}
+.btn:hover{ 
+  filter:brightness(.95); 
+}
+
+.small { 
+  font-size:12px; 
+  color:#000000;
+ }
+.ref-list a { 
+  color:#cc0000; 
+  text-decoration:none; 
+}
+
+
+
+@media (max-width: 600px) {
+  .header img.logo {
+    height: 60px;
+  }
+    .img-text img {
+    width: 100%;    
+    height: auto;   
+    float: none;    
+    margin: 10px 0;
+  }
+  .header-text {
+    margin-left: 24px;
+    font-size: 1.1em;
+    color: #ffd95a;
+    font-weight: 500;
+  }
+  .card img {
+    width: 120px;
+    height: 120px;
+  } 
+      
+.header h1 {
+        font-size: 1.3em;
+      }
+.header .small {
+        font-size: 0.85em;
+      }
+}
