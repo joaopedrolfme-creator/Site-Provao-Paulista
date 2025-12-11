@@ -12,7 +12,7 @@ html, body {
 }
 
 .logo-header {
-  width: 5px;     
+  width: 60px;     
   height: auto;
 }
 
@@ -122,8 +122,8 @@ body.corpo {
     }
 
     .header .small {
-      margin-top: 8px;
-      font-size: 0.95em;
+      margin-top: 10px;
+      font-size: 12px;
       color: #ffffff;
     }
 
@@ -333,35 +333,4 @@ body.corpo {
 .ref-list a { 
   color:#cc0000; 
   text-decoration:none; 
-}
-
-
-
-@media (max-width: 600px) {
-  .header img.logo {
-    height: 60px;
-  }
-    .img-text img {
-    width: 100%;    
-    height: auto;   
-    float: none;    
-    margin: 10px 0;
-  }
-  .header-text {
-    margin-left: 24px;
-    font-size: 1.1em;
-    color: #ffd95a;
-    font-weight: 500;
-  }
-  .card img {
-    width: 120px;
-    height: 120px;
-  } 
-      
-.header h1 {
-        font-size: 1.3em;
-      }
-.header .small {
-        font-size: 0.85em;
-      }
 }
