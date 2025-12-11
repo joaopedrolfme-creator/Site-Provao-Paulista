@@ -12,7 +12,7 @@ html, body {
 }
 
 .logo-header {
-  width: 100px;     
+  width: 60px;     
   height: auto;
 }
 
@@ -327,7 +327,7 @@ body.corpo {
 }
 
 .small { 
-  font-size:12px; 
+  font-size:8px; 
   color:#000000;
  }
 .ref-list a { 
